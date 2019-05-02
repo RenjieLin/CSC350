@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgencyApp.Feedback">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text=" Please Type Your Feedback Down Below "
+               HorizontalOptions="CenterAndExpand" 
+                HeightRequest="30" />
+            <Entry x:Name="entryFeedback"
+                   Placeholder="Type Here..."/>
+            <Button x:Name="buttonAdd" 
+                    Text="Submit"
+                    Clicked="ButtonAdd_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
